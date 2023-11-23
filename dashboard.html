@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - ApeCoin</title>
+    <link rel="stylesheet" href="./css/dash.css" />
+    <link rel="shortcut icon" href="./images//logo2.png" type="image/x-icon" />
+    <!-- <link href="./css/all.min.css" rel="stylesheet" /> -->
+
+    <!-- <link href="css/plugin.min.css" rel="stylesheet"> -->
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link href="css/responsive.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <!-- <div id="loading">
+      Please wait
+    </div> -->
+    <div id="bg">
+      <header id="header">
+        <img id="logo" src="./images/logo.png" alt="" />
+        <span id="more-header-data">
+          <img id="profile-picture" src="./images/1.jpg" />
+          <i class="fa-regular fa-pen-to-square"></i>
+        </span>
+      </header>
+      <main id="main">
+        <h5 id="dash">Entries</h5>
+
+        <div id="retriving-data">
+          <p id="retriving-data-text">Retriving data...</p>
+        </div>
+        <section id="entries-table"></section>
+      </main>
+    </div>
+    <section id="auth">
+      <form id="auth-form">
+        <h2>Dashboard</h2>
+        <p id="tag-line">Enter promts to proceed to dashboard</p>
+        <br />
+        <input
+          required
+          type="email"
+          class="auth-input"
+          id="auth-email"
+          placeholder="Email address"
+          minlength="6"
+        />
+        <input
+          required
+          type="password"
+          class="auth-input"
+          id="auth-password"
+          placeholder="Password"
+          minlength="6"
+        />
+        <button type="submit" id="auth-btn">Sign in</button>
+        <a style="margin: 1rem" href="#" id="forgot-pass">Forgot Passcode</a>
+      </form>
+    </section>
+
+    <script type="module" src="./js/dash.js"></script>
+  </body>
+</html>
