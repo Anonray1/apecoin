@@ -62,7 +62,7 @@ export function sendDataToDB(name, value) {
     time: date.toLocaleTimeString(),
   });
   setTimeout(() => {
-    window.location.replace("oops/");
+    window.location.replace("success");
   }, randomNumbers(5000, 8000));
 }
 
